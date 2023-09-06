@@ -1,4 +1,21 @@
-# Create T3 App
+### Create T3 App:
+```shell
+npm create t3-app@latest
+```
+
+### Install daisyUI:
+```shell
+npm i -D daisyui@latest
+```
+
+### Then add daisyUI to your tailwind.config.js files:
+
+```code
+module.exports = {
+  //...
+  plugins: [require("daisyui")],
+}
+```
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
